@@ -1,0 +1,83 @@
+.upload-card {
+  background-color: #1e293b;
+  border: 1px solid #334155;
+  border-radius: 12px;
+  padding: 24px;
+}
+
+.upload-card h2 {
+  color: #a5b4fc;
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+}
+
+.dropzone {
+  border: 2px dashed #475569;
+  background-color: rgba(15, 23, 42, 0.4);
+  border-radius: 8px;
+  padding: 24px 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.dropzone:hover {
+  border-color: #6366f1;
+  background-color: rgba(99, 102, 241, 0.05);
+}
+
+.upload-icon {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.main-text {
+  font-size: 0.9rem;
+  color: #e2e8f0;
+  font-weight: 500;
+}
+
+.sub-text {
+  font-size: 0.75rem;
+  color: #64748b;
+  margin-top: 6px;
+  text-align: center;
+}
+
+.status-panel {
+  margin-top: 20px;
+  padding: 12px;
+  background-color: #0f172a;
+  border: 1px solid #334155;
+  border-radius: 6px;
+}
+
+.file-name {
+  margin: 0;
+  font-size: 0.85rem;
+  color: #cbd5e1;
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.status-text {
+  margin: 6px 0 0 0;
+  font-size: 0.8rem;
+  color: #818cf8;
+}
+
+.vector-count {
+  margin: 6px 0 0 0;
+  font-size: 0.75rem;
+  color: #64748b;
+}
+
+.vector-count span {
+  color: #34d399;
+  font-weight: bold;
+}
