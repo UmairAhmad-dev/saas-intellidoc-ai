@@ -7,6 +7,10 @@ from sentence_transformers import SentenceTransformer
 from huggingface_hub import InferenceClient
 import chromadb
 import pypdf
+from dotenv import load_dotenv  # 💡 Added explicit environment system mapping
+
+# Explicitly parse and inject variables from the local secure .env file
+load_dotenv()
 
 app = FastAPI(
     title="IntelliDoc AI Production Server",
